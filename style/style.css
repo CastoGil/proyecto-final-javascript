@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.cardCelular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 10px;
+}
+.card{
+    border-color: black;
+    margin: 20px;
+}
+.contenido{
+    width: 100%;
+    background-image: url(../img/imgfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  
+}
+.carrito{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+   
+}
+div.vacio{
+   color: white;
+   margin-left: 25px;
+  
+}
+.totalCompra{
+    
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.total{
+    font-size: 1.2rem;
+    
+}
+
+.listcompra{
+    background-color: #2e2c2c;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+    
+}
+.listcompra img{
+    margin-left: 12.5px;
+    border-radius: 10px;
+}
+.listcompra div{
+    margin-top: 10px;
+    
+}
+.resultado{
+    display: flex;
+    
+    color: white;
+    text-align: justify;
+    border-radius: 10px;
+   
+    
+}
+.resultado div{
+    background-color: #2e2c2c;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.resultado div img{
+    margin-left: 17px;
+    width: auto;
+}
+li{
+ 
+ border-radius: 5px;
+ margin-top: 5px;
+}
+.eliminar{
+   width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+   border-radius: 10px;
+   background-color:#DC3545;
+   color: white;
+}
+.comprar{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:#00a3007e;
+    color: white;
+}
+p{
+    color: white;
+}
+p span{
+    margin-left: 15px;
+}
+.dropdown-menu.show{
+    background-color: #2e2c2c;
+}
+.Tienda {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color:  #2e2c2c;
+    color: white;
+    margin: 0%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+}
+.btn{
+    margin: 2px;
+    border-radius: 20px;
+}
+.disponible{
+    text-align: center;
+    font-size: 1.3rem;
+    background-color:  #2e2c2c;
+    color: white;
+    margin: 0%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+}
+.buscador{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.boton-eliminar{
+    width: 15%;
+    background-color: #DC3545;
+    border-radius: 5px;
+    color: white;
+}
+/*Diseño del footer*/
+.footer { 
+    width: 100%; 
+    background-color: #2e2c2c; 
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px; 
+}
+
+.footer .grupo1 { 
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto; 
+    display: 
+    -ms-grid; 
+    display: grid; 
+    -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 50px; 
+    padding: 10px 0px; 
+}
+
+.footer .grupo1 .figure { 
+    width: 100%; 
+    height: 100%; 
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+}
+
+.footer .grupo1 .figure .logo {
+  width: 250px;
+  
+}
+img.logo{
+    border-radius: 10px;
+}
+
+
+.footer .grupo1 .caja .sobre { margin-bottom: 25px; font-size: 20px; text-align: center; }
+
+.footer .grupo1 .caja .info { margin-bottom: 10px; text-align: justify; }
+
+.footer .grupo1 .caja .siguenos { margin-bottom: 25px; font-size: 20px; text-align: center; }
+
+.footer .grupo1 .caja .redes a { font-size: 25px; display: inline-block; text-decoration: none; width: 45px; height: 45px; line-height: 45px; color: white; margin-left: 20px; background-color: #0f0f0f; text-align: center; -webkit-transition: all 300ms ease; transition: all 300ms ease; border-radius: 10px; }
+
+.footer .grupo1 .caja .redes a:hover { color: lime; }
+
+.footer .grupo-2 { background-color: #0f0f0f; text-align: center; color: white; }
+
+.footer .grupo-2 small { font-size: 15px; }
+
+@media screen and (max-width:800px){
+    .grupo1{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding: 35px 0px;
+        }
+}
+    
+

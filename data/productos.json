@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "modelo":"Samsung Galaxy A12",
+        "descripcion":"Ranura SIM: Dual SIM, RAM: 4 Gb, Memoria Interna: 128 Gb, Sistema operativo: Android, Tamaño de la pantalla: 6.5 inch, Tipo Procesador: MediaTek Helio P35, Frecuencia Procesador: 1.8 GHz, Numero de cámaras: 4, Capacidad de la batería: 5,000 mAh",
+        "precio":60000,
+        "img":"./img/samsung.jpg",
+        "icon":"./img/samsungicon.jpg"
+    },
+    {
+        "id": 2 ,
+        "modelo":"Nokia 23 M 32 GB 2 GB Ram",
+        "descripcion":"Dispositivo liberado para que elijas la compañía telefónica que prefieras, Pantalla de 6.2 ,Tiene 2 cámaras traseras de 13Mpx/2Mpx, Cámara delantera de 5Mpx, Procesador MediaTek MT6761 Helio A22 Quad-Core de 2GHz con 2GB de RAM" ,
+        "precio": 48402,
+        "img":"./img/nokia.jpg",
+        "icon":"./img/nokiaicon.jpg"
+    },
+    {
+        "id":3,
+        "modelo":"LG K50s X540 32 GB 3gb Ram",
+        "descripcion":"Pantalla: 6.5, 720 x 1520 pixels, Procesador: MediaTek Helio P22 2GHz, RAM: 3GB, Almacenamiento: 32GB ,Expansión: microSD, Cámara: Triple, 13MP+5MP+2MP ,Batería: 4000 mAh, OS: Android 9.0, Perfil: 8.2 mm",
+        "precio":35999,
+        "img":"./img/lg.jpg",
+        "icon":"./img/lgicon.jpg"
+    },
+    {
+        "id":4,
+        "modelo":"Motorola G22 128GB",
+        "descripcion":"Tipo de producto Smartphones,Sistema operativo Android 12, Tamaño de la pantalla 6.53, Conectividad 4G, Núcleos del procesador Octa Core, Velocidad de la CPU 2,3Ghz, Memoria interna 128GB,Memoria expandible Hasta 1TB, Memoria RAM 4GB",
+        "precio":36499,
+        "img":"./img/motorola.jpg",
+        "icon":"./img/motorolaicon.jpg"
+    },
+    {
+        "id":5,
+        "modelo":"Motorola G22 128GB",
+        "descripcion":"Tipo de producto Smartphones,Sistema operativo Android 12, Tamaño de la pantalla 6.53, Conectividad 4G, Núcleos del procesador Octa Core, Velocidad de la CPU 2,3Ghz, Memoria interna 128GB,Memoria expandible Hasta 1TB, Memoria RAM 4GB",
+        "precio":36499,
+        "img":"./img/motorola.jpg",
+        "icon":"./img/motorolaicon.jpg"
+    },
+    {
+        "id":6,
+        "modelo":"Motorola G22 128GB",
+        "descripcion":"Tipo de producto Smartphones,Sistema operativo Android 12, Tamaño de la pantalla 6.53, Conectividad 4G, Núcleos del procesador Octa Core, Velocidad de la CPU 2,3Ghz, Memoria interna 128GB,Memoria expandible Hasta 1TB, Memoria RAM 4GB",
+        "precio":36499,
+        "img":"./img/motorola.jpg",
+        "icon":"./img/motorolaicon.jpg"
+    },
+    {
+        "id":7,
+        "modelo":"Motorola G22 128GB",
+        "descripcion":"Tipo de producto Smartphones,Sistema operativo Android 12, Tamaño de la pantalla 6.53, Conectividad 4G, Núcleos del procesador Octa Core, Velocidad de la CPU 2,3Ghz, Memoria interna 128GB,Memoria expandible Hasta 1TB, Memoria RAM 4GB",
+        "precio":36499,
+        "img":"./img/motorola.jpg",
+        "icon":"./img/motorolaicon.jpg"
+    }
+
+
+
+
+
+
+
+
+
+]
